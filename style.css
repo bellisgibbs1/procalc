@@ -147,9 +147,28 @@ figcaption {
 
 .peapod,
 .freshdirect,
-.amazon {
+.amazon{
     margin: 5px 0;
     display: none;
+}
+
+/** commans equal or */
+
+.peapod.active,
+.freshdirect.active,
+.amazon.active {
+    display: block;
+}
+
+.cheap{
+    font-weight: bond;
+    font-size: 2em;
+    color: rgb(13, 92, 13)
+}
+
+.cheap:after {
+    font-family: FontAwesome;
+    content: "\f00c";
 }
 
 
